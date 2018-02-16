@@ -112,12 +112,12 @@ print $sample_name,"\n\n";
 
 #####################################################################################
 # path and name of databases
-my $db_BN = "/scratch/dwlab/databases/nt_20160802/nt";
-my $db_BX = "/scratch/dwlab/databases/nr_20160802/nr";
+my $db_BN = "/blastdb/nt";
+my $db_BX = "/blastdb/nr";
 # Virus database created by extracting all viral sequences from NR and then
 # CD-HIT clustered with 98% ID
-my $NR_VIRUS = "/scratch/dwlab/databases/VirusDBNR_20160802/VirusDBNR_20160802_ID98.fa";
-my $NT_VIRUS = "/scratch/dwlab/databases/VirusDBNT_20160802/VirusDBNT_20160802_ID98.fa";
+my $NR_VIRUS = "/vsdb/VirusDBNR_20160802/VirusDBNR_20160802_ID98.fa";
+my $NT_VIRUS = "/vsdb/VirusDBNT_20160802/VirusDBNT_20160802_ID98.fa";
 
 ####################################################################################
 # software path
